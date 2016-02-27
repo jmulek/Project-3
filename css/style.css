@@ -89,10 +89,7 @@ input[type="text"],
 input[type="email"] {
   text-align: right;
 }
-.news{
-  border-top: 5px solid rgb(108, 105, 108);
-  padding-top: 50px;
-}
+
 
 input {
 	text-align: left;
@@ -140,9 +137,9 @@ fieldset {
   margin-bottom: 30px;
 	border: none;
 	padding: 0;
-
-
-
+}
+.top {
+  border-bottom: 4px solid black;
 }
 
 legend {
