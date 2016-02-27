@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sign Up Form</title>
+        <title>Sign Up For Newsletter</title>
         <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -31,13 +31,13 @@
           <input type="email" id="mail" name="user_email" placeholder="Required" required>
 
           <label for="phone">Phone Number</label>
-          <input type="phone" id="phone" name="user_phone">
+          <input  id="phone" name="user_phone">
 
           <label for="address">Street Address</label>
-          <input type="address" id="mail" name="user_email">
+          <input  id="address" name="user_adress">
 
           <label for="city">City</label>
-          <input type="city" id="mail" name="user_email">
+          <input  id="city" name="user_city">
 
           <label for="state">State</label>
           <select id="state" name="user_state">
@@ -48,23 +48,22 @@
             <option value="california">California</option>
             <option value="colorado">Colorado</option>
             <option value="connecticut">Connecticut</option>
-            <option value="">Delaware</option>
-            <option value="">Florida</option>
-            <option value="">Georgia</option>
-            <option value="">Hawaii</option>
-            <option value="">Idaho</option>
-            <option value="">Illinois</option>
-            <option value="">Indiana</option>
-            <option value="">Iowa</option>
-            <option value="">Kansas</option>
-            <option value="">Kentucky</option>
-          </option>
+            <option value="delaware">Delaware</option>
+            <option value="florida">Florida</option>
+            <option value="georgia">Georgia</option>
+            <option value="hawaii">Hawaii</option>
+            <option value="idaho">Idaho</option>
+            <option value="illinois">Illinois</option>
+            <option value="indiana">Indiana</option>
+            <option value="iowa">Iowa</option>
+            <option value="kansas">Kansas</option>
+            <option value="kentucky">Kentucky</option>
           </select>
 
           <label for="zip">Zip Code</label>
-          <input type="zip" id="mail" name="user_email">
+          <input id="zip" name="userzip">
 
-        <h3>Newsletter</h3>
+        <h3 class="news">Newsletter</h3>
         <p>Select the newsletter you would like to recieve</p>
         <input type="checkbox" id="html" value="html" name="news-html"><label class="light" for="html">HTML News</label><br>
         <input type="checkbox" id="css" value="css" name="news-css"><label class="light" for="css">CSS News</label><br>
@@ -84,7 +83,7 @@
 
         </fieldset>
 
-        <button type="sumbit">Sign Up</button>
+        <button>Sign Up</button>
 
       </form>
     </div>
