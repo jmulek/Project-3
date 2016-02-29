@@ -174,9 +174,33 @@ footer {
   }
 	.content{
 		margin: 0 auto;
-	  width: 70%;
+	  width: 80%;
     max-width: 1000px;
+
 	}
+  .top label {
+    display: inline-block;
+    margin-bottom: 8px;
+  	font-size: 14px;
+  	font-weight: lighter;
+    width: 19%;
+
+  }
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  input[type="text"],
+  input[type="email"],
+  #phone,
+  #address,
+  #city,
+  #state {
+    max-width: 79.5%;
+    width:100%;
+
+    }
+
 	fieldset {
 	  margin-bottom: 30px;
 		border: none;
