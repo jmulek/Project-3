@@ -47,16 +47,22 @@ p {
 label[for="bio"] {
 	padding-top: 25px;
 	padding-bottom: 10px;
-}
 
+}
+input[required]{
+  text-align: right;
+}
+input[required]:focus{
+  background: #F79797;
+
+
+}
 
 input[type="text"],
 input[type="email"],
-#phone,
-#zip,
-#address,
-#city,
+input[type="tel"],
 #state,
+#zip,
 textarea,
 select {
   background: rgba(255,255,255,0.1);
@@ -76,8 +82,9 @@ select {
 #zip {
   width: 200px;
 }
+#zip:focus,
 input:focus {
-
+  background-color: #BAF5B3;
 	font-size: 20px;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 	margin-bottom: 30px;
@@ -85,10 +92,7 @@ input:focus {
 
 
 }
-input[type="text"],
-input[type="email"] {
-  text-align: right;
-}
+
 
 
 input {
@@ -101,6 +105,13 @@ input[type="checkbox"] {
 }
 #bio {
   height:125px;
+
+}
+.bio {
+
+  font-size: 18px;
+  font-family: fantasy;
+  padding-top: 20px;
 
 }
 
@@ -192,6 +203,7 @@ footer {
   }
   input[type="text"],
   input[type="email"],
+  input[type="tel"],
   #phone,
   #address,
   #city,
