@@ -23,10 +23,14 @@ p {
 	font-family: fantasy;
 	font-weight: normal;
 }
+form {
+  border-top: 2px solid rgba(0, 0, 0, 0.87);
+  margin-top: 2px;
+}
 .signup {
 	text-align: center;
 	padding-bottom: 1.3em;
-	border-bottom: 5px solid black;
+	border-bottom: 4px solid rgba(0, 0, 0, 0.87);
 }
 .content {
 	max-width: 90%;
@@ -38,15 +42,20 @@ p {
 	font-size: 1.1em;
   margin: 0 auto;
 }
-.border {
-	border-bottom: 2px solid black;
-	padding: 2px 0;
-	height: 5px;
-  margin-bottom: 20px;
+.contact {
+  padding-top: 35px;
+
+
+
 }
+
+
 label[for="bio"] {
 	padding-top: 25px;
 	padding-bottom: 10px;
+  font-size: 18px;
+  font-family: fantasy;
+
 
 }
 input[required]{
@@ -81,6 +90,8 @@ select {
 }
 #zip {
   width: 200px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
 }
 #zip:focus,
 input:focus {
@@ -105,14 +116,10 @@ input[type="checkbox"] {
 }
 #bio {
   height:125px;
-
 }
-.bio {
-
-  font-size: 18px;
-  font-family: fantasy;
-  padding-top: 20px;
-
+#bio:focus {
+  background-color: rgba(242, 255, 0, 0.29);
+  color: black;
 }
 
 select {
@@ -150,11 +157,11 @@ fieldset {
 	padding: 0;
 }
 .top {
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.87);
 }
 
 legend {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 25px;
 
 
